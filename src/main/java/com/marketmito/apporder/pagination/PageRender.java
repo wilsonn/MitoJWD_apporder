@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.data.domain.Page;
 
 public class PageRender<T> {
+	
 	private String url;
 	private Page<T> page;
 
